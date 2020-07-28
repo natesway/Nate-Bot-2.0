@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 
-const PREFIX = '?';
+const PREFIX = '~';
 
 bot.on("ready", function (){
      console.log('S[bot.user.username] Is Online!');
